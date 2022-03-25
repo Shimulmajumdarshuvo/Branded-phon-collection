@@ -1,0 +1,22 @@
+.cart{
+    border: 1px solid teal;
+    border-radius: 10px;
+    position: sticky;
+    top:0;
+    padding: 20px 20px;
+    background-color: cornsilk;
+}
+.btn-carts{
+    border: none;
+    margin-top: 5px;
+    padding: 5px 10px;
+    color: rgb(2, 6, 27);
+    border-radius: 12px;
+    background-color: rgb(52, 190, 190);
+
+}
+.btn-carts:hover{
+    color: blue;
+    background-color: rgb(238, 133, 101);
+
+}
