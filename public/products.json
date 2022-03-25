@@ -1,63 +1,84 @@
 [
     {
+        "id": 77,
+        "price": 15195,
+        "balance": "$2,337.87",
+        "picture": "https://www.bgr.in/wp-content/uploads/2021/07/samsung-galaxy-a22-5g.jpg",
+        "name": "Samsung Galaxy 5"
+    },
+    {
+        "id": 80,
+        "price": 19000,
+        "balance": "$2,337.87",
+        "picture": "https://static.digit.in/default/418cc90461c44bb580374d58e82ea9d48b59b88d.jpeg?tr=w-1200",
+        "name": "Samsung Galaxy A-30"
+    },
+    {
+        "id": 88,
+        "price": 29195,
+        "balance": "$2,337.87",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMn6KGhkDyduD0otBmXzPpHZUW2QbVHreVoI64ttosj9-Q5-k6cG_rENUDsUq4eH4U7_E&usqp=CAU",
+        "name": "Apple iPhon"
+    },
+    {
         "id": 99,
-        "price": 2864,
+        "price": 52864,
         "balance": "$1,998.38",
         "picture": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-silver-select?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1645552345849",
         "name": " iPhone 13 Pro Sliver"
     },
     {
         "id": 80,
-        "price": 9305,
+        "price": 69305,
         "balance": "$3,907.96",
         "picture": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-gold-select?wid=940&hei=1112&fmt=png-alpha&.v=1645552345862",
         "name": " iPhone 13 Pro"
     },
     {
         "id": 58,
-        "price": 3345,
+        "price": 53345,
         "balance": "$3,231.19",
         "picture": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-max-blue-select?wid=940&hei=1112&fmt=png-alpha&.v=1645552346295",
         "name": "iPhone 13"
     },
     {
         "id": 24,
-        "price": 6024,
+        "price": 60024,
         "balance": "$3,317.13",
         "picture": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1644969385433",
         "name": "iPhon 12 pro"
     },
     {
         "id": 53,
-        "price": 7736,
+        "price": 47736,
         "balance": "$3,973.51",
         "picture": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone11-green-select-2019_GEO_EMEA?wid=834&hei=1000&fmt=jpeg&qlt=95&.v=1567021766404",
         "name": "iPhone 11 pro max"
     },
     {
         "id": 65,
-        "price": 5527,
+        "price": 45527,
         "balance": "$3,820.59",
         "picture": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone11-yellow-select-2019_GEO_EMEA?wid=834&hei=1000&fmt=jpeg&qlt=95&.v=1567021770273",
         "name": "iPhon 11"
     },
     {
         "id": 66,
-        "price": 2507,
+        "price": 52507,
         "balance": "$3,645.68",
         "picture": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone11-red-select-2019?wid=940&hei=1112&fmt=png-alpha&.v=1566956144763",
         "name": "iPhon 11 red"
     },
     {
         "id": 90,
-        "price": 5383,
+        "price": 85383,
         "balance": "$2,870.57",
         "picture": "https://www.getgadgetsbd.com/wp-content/uploads/2021/10/iphone-13-blue-select-2021.png",
         "name": "iPhon 12 pro max"
     },
     {
         "id": 86,
-        "price": 9195,
+        "price": 39195,
         "balance": "$2,337.87",
         "picture": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_new-iphone-se-white_04152020_big.jpg.large.jpg",
         "name": "iPhon plus"
