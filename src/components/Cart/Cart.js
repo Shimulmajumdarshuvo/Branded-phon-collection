@@ -22,9 +22,7 @@ const Cart = (props) => {
             <button className='btn-carts'>
                 <p>CHOOSE AGAIN</p>
             </button>
-            <button>
-                <p>clear button</p>
-            </button>
+
 
         </div>
     );

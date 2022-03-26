@@ -33,6 +33,7 @@ const Shop = () => {
             </div>
             <div className="cart-container">
                 <Cart cart={cart}  ></Cart>
+                <p>How react work?</p>
 
             </div>
         </div>
