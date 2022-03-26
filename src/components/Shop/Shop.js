@@ -26,6 +26,7 @@ const Shop = () => {
     }
     const reset = () => {
         setCart([]);
+        setRandom([]);
     }
 
 
@@ -52,7 +53,9 @@ const Shop = () => {
             </div>
             <div className="cart-container">
 
-                <Cart cart={cart} reset={reset} random={random} chooseOne={chooseOne}></Cart>
+                {
+                    <Cart cart={cart} reset={reset} random={random} chooseOne={chooseOne}></Cart>
+                }
 
 
 
