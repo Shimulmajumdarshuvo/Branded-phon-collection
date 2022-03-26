@@ -14,9 +14,17 @@ const Shop = () => {
     }, []);
 
     const handleClicked = (product) => {
-        const newCart = [...cart, product];
-        setCart(newCart);
+        if (cart.length > 3) {
+            alert('Available 4 products');
+
+        }
+        else {
+            const newCart = [...cart, product];
+            setCart(newCart);
+        }
     }
+
+
 
     return (
         <div className='shop-container'>
@@ -33,6 +41,10 @@ const Shop = () => {
             </div>
             <div className="cart-container">
                 <Cart cart={cart}  ></Cart>
+
+
+
+
 
 
             </div>

@@ -3,11 +3,11 @@ import "./Cart.css"
 
 const Cart = (props) => {
     const { cart } = props;
-    console.log(cart)
 
-    const clickHandler = (props) => {
-        console.log(props);
-    }
+    // const handleRandom = cart => {
+    //     const randomCart = cart[Math.floor(Math.random() * cart.length)];
+    //     console.log(randomCart);
+    // }
 
 
     return (
@@ -16,7 +16,10 @@ const Cart = (props) => {
             {
                 cart.map(phon => <p>Name:{phon.name}</p>)
             }
-            <button onClick={clickHandler} className='btn-carts'>
+
+
+
+            <button className='btn-carts'>
                 <p>CHOOSE 1 FOR ME</p>
             </button>
             <button className='btn-carts'>
