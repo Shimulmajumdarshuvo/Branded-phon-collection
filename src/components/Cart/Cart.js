@@ -5,6 +5,10 @@ const Cart = (props) => {
     const { cart } = props;
     console.log(cart)
 
+    const clickHandler = (props) => {
+        console.log(props);
+    }
+
 
     return (
         <div className='cart'>
@@ -12,7 +16,7 @@ const Cart = (props) => {
             {
                 cart.map(phon => <p>Name:{phon.name}</p>)
             }
-            <button className='btn-carts'>
+            <button onClick={clickHandler} className='btn-carts'>
                 <p>CHOOSE 1 FOR ME</p>
             </button>
             <button className='btn-carts'>
