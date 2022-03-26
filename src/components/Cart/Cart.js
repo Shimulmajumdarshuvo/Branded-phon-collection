@@ -2,23 +2,15 @@ import React from 'react';
 import "./Cart.css"
 
 const Cart = (props) => {
-    const { cart, reset, random, chooseOne } = props;
+    const { cart, reset, chooseOne } = props;
     return (
         <div className='cart'>
             <h2>Selected Phon</h2>
             {
-                cart.map(phon => <p>Name:{phon.name}</p>)
+                cart.map(phon => <p key={phon.id}>Name:{phon.name}</p>)
             }
 
-
-            <div>
-                <h2>
-                    {random.name}
-                </h2>
-
-            </div>
-
-            <button onClick={chooseOne} className='btn-carts'>
+            <button onClick={() => chooseOne(cart)} className='btn-carts'>
                 <p>CHOOSE 1 FOR ME</p>
             </button>
             <button onClick={reset} className='btn-carts'>

@@ -37,12 +37,6 @@ const Footer = () => {
                 5.Props এর value কখনো পরিবর্তন করা যায় না
             </p>
 
-
-            <h2>How use state works</h2>
-            <p>
-
-            </p>
-
         </div>
     );
 };
