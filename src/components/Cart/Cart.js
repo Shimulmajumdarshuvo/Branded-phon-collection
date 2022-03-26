@@ -2,12 +2,9 @@ import React from 'react';
 import "./Cart.css"
 
 const Cart = (props) => {
-    const { cart } = props;
+    const { cart, reset, random, chooseOne } = props;
+    console.log(random);
 
-    // const handleRandom = cart => {
-    //     const randomCart = cart[Math.floor(Math.random() * cart.length)];
-    //     console.log(randomCart);
-    // }
 
 
     return (
@@ -18,11 +15,19 @@ const Cart = (props) => {
             }
 
 
+            <div>
+                <h2>
+                    Name:{random.name}
+                </h2>
 
-            <button className='btn-carts'>
+            </div>
+
+
+
+            <button onClick={chooseOne} className='btn-carts'>
                 <p>CHOOSE 1 FOR ME</p>
             </button>
-            <button className='btn-carts'>
+            <button onClick={reset} className='btn-carts'>
                 <p>CHOOSE AGAIN</p>
             </button>
 
