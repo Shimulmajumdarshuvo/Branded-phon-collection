@@ -1,5 +1,8 @@
-# my react app 
+# Phon Collection iPhon Brand
 
-react project [live link](https://github.com/facebook/create-react-app).
+React project [live link](https://leafy-squirrel-bfb1d9.netlify.app/).
+
+
+privet reop link:
 
 
